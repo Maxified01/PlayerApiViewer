@@ -281,7 +281,7 @@ MonoBehaviour:
   healthText: {fileID: 2012863213}
   positionText: {fileID: 1661667120}
   statusText: {fileID: 1045337530}
-  inventoryParent: {fileID: 1446997074}
+  inventoryContentParent: {fileID: 1446997074}
   inventoryPrefab: {fileID: 6673027409940250341, guid: 35b11709669717d45999bab2061fd910, type: 3}
 --- !u!114 &113765455
 MonoBehaviour:
@@ -669,9 +669,9 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 0, b: 0, a: 1}
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.1254902, g: 0.1254902, b: 0.1254902, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0, g: 1, b: 0, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -1490,7 +1490,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
